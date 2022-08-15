@@ -23,7 +23,7 @@ const Forecast = ({ data }) => {
           <AccordionItem key={idx}>
             <AccordionItemHeading>
               <AccordionItemButton>
-                <div className="daily-item" style={{ background: `rgb(25, ${(idx + 3) * 25}, 162)` }}>
+                <div className="daily-item" style={{ background: `rgb(25, ${(idx + 15) * (250 / data.list.length)}, 162)` }}>
                   <img src={`icons/${item.weather[0].icon}.png`} className="icon-small" alt="weather" />
                   <label className="day">{forecastDays[idx % 7]}</label>
                   <label className="description">{item.weather[0].description}</label>

@@ -20,7 +20,7 @@
 
 ## 🔴 **Live link** <span id='live'></span>
 
-You can visit the page [Here]--.
+You can visit the page [Here](https://weather-tempe.netlify.app).
 
 
 ## 🏠 **Running the project locally** <span id='install'></span>
@@ -35,6 +35,10 @@ You can visit the page [Here]--.
    ```
 3. Enter your API in `.env`
    ```js
-   REACT_APP_RAPID_API_kEY= "add your rapid api key here"
-   REACT_APP_WEATHER_API_KEY= "add your key from openweather API"
+   REACT_APP_RAPID_API_kEY= `
+        Add your rapid api key here 
+        form: https://rapidapi.com/wirefreethought/api/geodb-cities`
+   REACT_APP_WEATHER_API_KEY= `
+        Add your key from openweather API
+        https://openweathermap.org`
    ```
